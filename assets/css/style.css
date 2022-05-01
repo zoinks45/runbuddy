@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: helvetica,arial, sans-serif;
-    background-color: tomato;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding: 20px 35;
+    padding: 20px 35px;
     background-color: #39a6b2;
 }
 
@@ -51,4 +51,27 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+  }
+
+  footer {
+      background: #fce138;
+      width: 100%;
+      padding: 40px 35px;
+  }
+
+  footer h2 {
+      display: inline;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
+  }
+
+  footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+  }
+
+  footer a {
+      color: #024e76;
   }
